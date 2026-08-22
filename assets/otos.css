@@ -105,7 +105,7 @@ body{
 .on-night .kicker{color:var(--on-dark-3)}
 .rule{width:56px;height:3px;background:var(--orange);border-radius:2px}
 
-.display{font-family:var(--display);font-weight:400;line-height:var(--lh-display);letter-spacing:-.012em}
+.display{font-family:var(--display);font-weight:400;line-height:var(--lh-display);letter-spacing:-.012em;text-wrap:balance}
 .display .em{font-style:italic;color:var(--amber)}
 .on-light .display .em{color:var(--orange-ink)}
 .line{display:block}
@@ -239,8 +239,8 @@ em{font-style:italic}
 /* the hero mark — the brain as a graphic, not a watermark */
 .heromark{
   position:absolute;z-index:1;pointer-events:none;
-  right:-2%;top:50%;translate:0 -50%;
-  width:min(38%,460px);aspect-ratio:739/557;
+  right:2%;top:50%;translate:0 -50%;
+  width:min(34%,420px);aspect-ratio:739/557;
   background:var(--brain) no-repeat center/contain;
 }
 @media(min-width:1000px){
@@ -249,6 +249,11 @@ em{font-style:italic}
 }
 @media(max-width:999px){
   .heromark{width:64%;top:auto;bottom:-6%;translate:0 0;right:-10%;opacity:.12}
+}
+/* eases the illustration-to-wash switch across the tablet band
+   so the mark scales instead of snapping at 999px */
+@media(min-width:761px) and (max-width:999px){
+  .heromark{width:44%;top:50%;bottom:auto;translate:0 -50%;right:0;opacity:.5}
 }
 @media(max-width:640px){
   .heromark{width:80%;opacity:.1}
