@@ -736,3 +736,19 @@ em{font-style:italic}
 .skip{position:absolute;left:-9999px;top:0;background:var(--orange);color:#fff;padding:.75rem 1rem;z-index:100}
 .skip:focus{left:0}
 :focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+
+/* ============================================================
+   UNLTD BRIEFING — page-specific overrides.
+   This folder deploys on its own; this file is its single
+   stylesheet. Nothing here changes the partner microsite.
+   ============================================================ */
+
+/* The hero mark bleeds off the right edge by design on the
+   microsite. On a single-page briefing there is no next screen
+   to carry it, so it reads as clipped. Bring it inside. */
+@media(min-width:1000px){
+  .heromark{
+    right:4%;
+    width:min(30%,380px);
+  }
+}
