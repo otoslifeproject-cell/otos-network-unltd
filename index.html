@@ -1,428 +1,415 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <title>OTOS Continuity — private briefing for UnLtd</title>
-  <meta name="description" content="Private briefing prepared for UnLtd. OTOS Continuity — non-clinical continuity infrastructure for adults whose addiction is driven by untreated ADHD.">
-  <meta name="theme-color" content="#100d0b">
-  <link rel="icon" href="assets/brain.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/lockup-black.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Franklin:wght@500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/otos.css">
-</head>
-<body>
-<div class="progress" aria-hidden="true"></div>
-<a class="skip" href="#main">Skip to content</a>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UnLtd Submission — Final Read</title>
+<style>
+:root{--bg:#faf7f2;--ink:#1e1c18;--soft:#6b6459;--card:#ffffff;--line:#e6e0d6;--accent:#7a4bd6;--qbg:#f2ecff;--qink:#3d2b6e;--chip:#eee7db;--warn:#c02929;}
+@media (prefers-color-scheme: dark){:root{--bg:#171512;--ink:#eae6df;--soft:#a49a8c;--card:#211e1a;--line:#37322b;--accent:#b39af0;--qbg:#2a2440;--qink:#cfc2f5;--chip:#2e2a24;--warn:#ff7d7d;}}
+html{background:var(--bg);}
+body{background:var(--bg);color:var(--ink);font:19px/1.65 -apple-system,"Segoe UI",Roboto,Georgia,serif;margin:0;padding:2.2rem 1.2rem 5rem;}
+main{max-width:46rem;margin:0 auto;}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .3rem;}
+.sub{color:var(--soft);margin:0 0 2rem;font-size:1rem;}
+.keyfacts{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 2.4rem;}
+.kf{background:var(--chip);border-radius:.6rem;padding:.45rem .85rem;font-size:.95rem;}
+.kf b{display:block;font-size:1.05rem;}
+h2.sect{font-size:1.05rem;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin:3rem 0 1rem;border-bottom:1px solid var(--line);padding-bottom:.4rem;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:1rem;padding:1.6rem 1.8rem;margin:0 0 1.6rem;}
+.boxhead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.8rem;}
+.num{font-weight:700;color:var(--accent);font-size:1rem;letter-spacing:.05em;}
+.count{font-size:.85rem;color:var(--soft);background:var(--chip);border-radius:1rem;padding:.15rem .7rem;}
+.q{background:var(--qbg);color:var(--qink);border-radius:.7rem;padding:.9rem 1.1rem;font-weight:600;font-size:1.05rem;margin-bottom:1.2rem;}
+.a p{margin:0 0 1em;}
+.a p:last-child{margin-bottom:0;}
+.note{margin-top:1rem;font-size:.9rem;color:var(--soft);border-top:1px dashed var(--line);padding-top:.7rem;}
+.editwrap{margin-top:1.3rem;border-top:2px solid var(--line);padding-top:1rem;}
+.editlabel{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-bottom:.5rem;}
+textarea{width:100%;box-sizing:border-box;min-height:16rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:.7rem;padding:1rem;font:17px/1.6 -apple-system,"Segoe UI",Roboto,Georgia,serif;resize:vertical;}
+textarea:focus{outline:2px solid var(--accent);}
+.editbar{display:flex;justify-content:space-between;align-items:center;margin-top:.5rem;}
+.livecount{font-size:.9rem;color:var(--soft);}
+.livecount.over{color:var(--warn);font-weight:700;}
+button{background:var(--accent);color:#fff;border:none;border-radius:.6rem;padding:.5rem 1.1rem;font-size:.95rem;cursor:pointer;}
+button:active{opacity:.8;}
+ul.picks{list-style:none;padding:0;margin:.4rem 0 0;}
+ul.picks li{padding:.35rem 0 .35rem 1.6rem;position:relative;}
+ul.picks li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700;}
+table{border-collapse:collapse;width:100%;font-size:1rem;}
+td,th{padding:.5rem .6rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;}
+td.r{text-align:right;white-space:nowrap;}
+tr.total td{font-weight:700;border-top:2px solid var(--ink);border-bottom:none;}
+.check li{margin:.4rem 0;}
+.flag{color:var(--accent);font-weight:600;}
+.warnbar{background:var(--qbg);color:var(--qink);border-radius:.7rem;padding:.8rem 1.1rem;font-size:.95rem;margin:0 0 2rem;}
+@media print{body{font-size:12pt;padding:0;} .card{break-inside:avoid;border:1px solid #ccc;} .editwrap,.warnbar{display:none;}}
+</style>
+<main>
+<h1>UnLtd Do It Award — the submission</h1>
+<p class="sub">OTOS Continuity™ · Dean Butler · read-through and edit copy, regenerated from the drafting file. The portal is the final word.</p>
+<div class="keyfacts">
+<div class="kf"><b>£8,000</b>amount requested</div>
+<div class="kf"><b>31 Aug, 10:00</b>real close (TL-0398)</div>
+<div class="kf"><b>650 cap</b>round can close early — submit ASAP</div>
+<div class="kf"><b>All boxes under 2,000</b>counts verified</div>
+</div>
+<div class="warnbar"><b>How the edit boxes work:</b> the top text is the approved version, untouched. Type changes in the box under it — the counter goes red past 2,000. <b>Copy edited text</b> puts your version on the clipboard for the portal. ⚠️ Edits live only on this open page — copy anything you change before closing it, and paste changed text back to me in chat if you want the drafting file and the log updated.</div>
 
-<nav class="nav" aria-label="Primary">
-  <div class="nav-in">
-    <a class="brandmark" href="#main" aria-label="OTOS Continuity">
-      <img src="assets/lockup-white.png" alt="OTOS Continuity" width="316" height="130">
-    </a>
-    <div class="nav-links">
-      <span class="kicker">Private briefing · UnLtd</span>
-    </div>
-  </div>
-</nav>
+<h2 class="sect">Section 2 · Equal opportunities</h2>
 
-<main id="main">
+<section class="card">
+  <div class="boxhead"><span class="num">Box 2.3</span><span class="count">1,888 / 2,000</span></div>
+  <div class="q">Is there anything you would like us to consider when assessing your application?</div>
+  <div class="a"><p>I have ADHD, diagnosed in 2020, only properly treated since September 2025. It is a disability under the Equality Act 2010 and it is also the condition this venture exists to address.</p>
+<p>Three things would help and none of them is a large ask:</p>
+<p>Please give me questions in advance. If this application progresses to a panel, seeing the questions beforehand means you get a considered answer rather than a scrambled one. My recall under pressure can be poor; my preparation is not.</p>
+<p>Please put decisions and next steps in writing. Verbal instructions do not survive the week with me — that is the exact failure this venture is built around. A short written summary after any call means nothing gets lost.</p>
+<p>Midday, if there is a choice. I am sharpest after medication.</p>
+<p>If anything in this application reads oddly, or a question looks half-answered, I would rather you asked me than assumed. Ambiguity is the thing I handle worst and the thing I am most willing to fix.</p>
+<p>You will see my employment status on this form is long-term sick. That is the official record, not the current reality. My records are consistently behind me: my ADHD diagnosis still does not appear on the NHS App or MyChart either.</p>
+<p>I will also say plainly: I am very well. I am correctly medicated, stable, working harder than I have in twenty years and able to run a business, but only because I paid for it privately. I am also still on the NHS medication review list I was referred to in March 2021: five years on, still unreviewed and still with no shared-care agreement in place. That is the whole point. I only got out of crisis because I learnt my way around a fragmented system and then could afford to medicate privately without waiting for it. Many people on that list are in severe crisis, touching many other services that also do not communicate, and cannot do either — and that is who this venture is for.</p></div>
+  
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t2_3" data-box="2.3" spellcheck="true">I have ADHD, diagnosed in 2020, only properly treated since September 2025. It is a disability under the Equality Act 2010 and it is also the condition this venture exists to address.
 
-<header class="hero on-night">
-  <span class="heromark" aria-hidden="true"></span>
-  <div class="wrap">
-    <span class="kicker eyebrow">Prepared for UnLtd Awards · August 2026</span>
-    <h1 class="display"><span class="line">When ADHD is left waiting, addiction steps in.</span><span class="line em">And it doesn&rsquo;t come quietly.</span></h1>
-    <p class="standfirst">The system usually treats addiction as the primary condition. For some people, that
-      is right. For a significant and identifiable group of adults, it is not. <strong>The primary condition is
-      ADHD. The drinking or drug use is what arrives in view.</strong></p>
-    <p class="fine">This page is held privately while partner conversations are live. It has been shared with UnLtd
-      directly, and is not indexed or publicly linked.</p>
-  </div>
-</header>
+Three things would help and none of them is a large ask:
 
-<section class="section g-cream" aria-labelledby="s1">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">01</span>
-        <h2 id="s1">The problem</h2>
-        <p class="sub">The system treats the crisis. Not always the condition driving it.</p>
-        <div class="rule" aria-hidden="true"></div>
-        <nav class="rail-index" aria-label="Sections on this page"><span class="kicker lab">On this page</span><ol>
-          <li><a href="#s1" data-active="true"><i>01</i><span>The problem</span></a></li>
-          <li><a href="#s2"><i>02</i><span>The gap</span></a></li>
-          <li><a href="#s3"><i>03</i><span>The venture</span></a></li>
-          <li><a href="#s4"><i>04</i><span>The founder</span></a></li>
-          <li><a href="#s5"><i>05</i><span>The award</span></a></li>
-          <li><a href="#s6"><i>06</i><span>Sustainability</span></a></li>
-        </ol></nav>
-      </div>
-      <div class="flow rv">
-        <p class="lead">That is the preventable second battle. People wait with unmanaged ADHD. Then they
-          reappear &mdash; in A&amp;E, in addiction services, in crisis teams, in detox, in rehab, in housing
-          pressure, in benefits queues, in police contact, in mental-health crisis, in collapse and sometimes in
-          prison. By the time the system catches up, the original need has become much more expensive, and much
-          harder to unwind.</p>
+Please give me questions in advance. If this application progresses to a panel, seeing the questions beforehand means you get a considered answer rather than a scrambled one. My recall under pressure can be poor; my preparation is not.
 
-        <blockquote class="pull">&ldquo;ADHD, when unsupported, is a potent route into educational failure,
-          long-term unemployment, crime, substance misuse, suicide, mental and physical illness. Economic costs to
-          individuals and the government of at least &pound;17 billion are avoidable as, when appropriately
-          supported, people with ADHD can thrive and fully engage in a working life.&rdquo;</blockquote>
-        <p class="fine">Report of the independent ADHD Taskforce, NHS England, 2025</p>
+Please put decisions and next steps in writing. Verbal instructions do not survive the week with me — that is the exact failure this venture is built around. A short written summary after any call means nothing gets lost.
 
-                <p>Self-medication works &mdash; until it doesn&rsquo;t. Alcohol can briefly do what an untreated ADHD brain
-          has been trying to do all along: cut through boredom, settle internal noise, create focus and bring a person
-          into the room. That is not a moral failure. It is a neurological system finding something that, for a
-          time, helps it function. And then it crosses the line into dependence, and compounds everything it once
-          relieved.</p>
+Midday, if there is a choice. I am sharpest after medication.
 
-        <p>Then the treatment itself misses. Recovery is a learning process &mdash; therapy, relapse prevention,
-          recovery education and routine &mdash; and it asks for exactly the capacities unmanaged ADHD impairs:
-          planning, working memory, impulse control and delayed reward. <strong>Fund recovery without stabilising the
-          ADHD underneath it, and you are asking someone to succeed using the one system that has been
-          disabled.</strong></p>
+If anything in this application reads oddly, or a question looks half-answered, I would rather you asked me than assumed. Ambiguity is the thing I handle worst and the thing I am most willing to fix.
 
-        <blockquote class="pull">If my ADHD had been recognised, treated and held properly earlier, I do not
-          believe alcohol would have become the painful, life-changing, system-level problem it later
-          became.</blockquote>
+You will see my employment status on this form is long-term sick. That is the official record, not the current reality. My records are consistently behind me: my ADHD diagnosis still does not appear on the NHS App or MyChart either.
 
-        <div class="statline"><span class="fig">803,658</span><p class="desc">open referrals that may be for an ADHD assessment in England, March 2026</p><p class="src">NHS England Digital, ADHD Management Information, published 28 May 2026</p></div>
-        <div class="statline"><span class="fig">&pound;17bn</span><p class="desc">avoidable annual economic cost of unsupported ADHD in the UK</p><p class="src">Independent ADHD Taskforce, NHS England, 2025</p></div>
-        <div class="statline"><span class="fig">4,690</span><p class="desc">adults in structured addiction treatment across Cambridgeshire and Peterborough</p><p class="src">NDTMS 2024/25 · Cambridgeshire 2,980 + Peterborough 1,710</p></div>
-        <div class="statline"><span class="fig">+12.3%</span><p class="desc">local growth in that treatment population, against a national +6%</p><p class="src">NDTMS 2024/25</p></div>
-
-        <p>NHS England&rsquo;s own ADHD data carries a warning about itself: it is <em>&ldquo;likely to significantly
-          underrepresent the number of people seeking, waiting for and with a diagnosis of ADHD.&rdquo;</em></p>
-
-        <p>The Royal College of Psychiatrists has been explicit about what should happen:
-          <em>&ldquo;Significant and comorbid substance misuse should be managed jointly between general adult and
-          addiction services in accordance with existing local protocols&rdquo;</em> (CR235 &sect;11.1, verbatim). Its 2025 report on co-occurring conditions goes further &mdash; <em>&ldquo;assertive linkage to
-          appropriate mental healthcare should be considered a core role for substance use services&rdquo;</em>
-          (CR243). On the question every addiction service asks first, CR235 &sect;11.1 is unambiguous:
-          <em>&ldquo;when prescribed stimulants are used appropriately, there is little evidence of patients
-          becoming dependent, and indeed treating ADHD may reduce the lifetime risk of developing a substance use
-          disorder.&rdquo;</em></p>
-
-        <blockquote class="pull">Treat the addiction alone and some of us keep coming back. Treat the ADHD underneath
-          it and the recovery work can finally hold.</blockquote>
-
-        <p><strong>The guidance exists. The connective tissue to deliver it does not.</strong></p>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="seam seam-r" aria-hidden="true"><i></i></div>
-
-<section class="section g-warm" aria-labelledby="s2">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">02</span>
-        <h2 id="s2">The gap</h2>
-        <p class="sub">Nobody owns the risk in the gap.</p>
-        <div class="rule" aria-hidden="true"></div>
-      </div>
-      <div class="flow rv">
-        <blockquote class="pull">Every service owns its own episode. Nobody owns the time between them. It is not a
-          gap in care &mdash; it is unowned risk.</blockquote>
-
-        <p>The hospital owns the admission. The addiction service owns the treatment episode. The ADHD service owns
-          the assessment. The GP owns the consultation. No one is accountable for the days, weeks and months in
-          between &mdash; and that unowned time is exactly where this group is lost.</p>
-
-        <p>A referral made, but nothing lands. A discharge happens, then silence. A signpost given, but no
-          follow-through. <strong>Known to services is not the same as held between services.</strong></p>
-
-        <p>They do not disengage loudly. They drift, silently, at hand-off &mdash; after a detox, after a discharge,
-          maybe signposted, but alone at the moment of highest risk. <strong>A referral is not proof that a
-          connection happened. A discharge plan is not proof that the next step landed. A waiting list is not a
-          holding layer.</strong></p>
-
-        <p>And there is a reason it happens to this group in particular. A handoff is not an administrative event
-          &mdash; it is a cognitive task handed to the patient: remember something said once, hold it across weeks
-          and start an action with no immediate reward, while unwell. For an unmedicated ADHD brain, that is the
-          hardest possible ask. Reward is steeply discounted over time, so a date three weeks away never feels
-          close. Working memory is leaky, and the instruction was verbal. Initiation &mdash; not motivation &mdash;
-          is the barrier. Miss the first appointment and shame makes the second harder. Meanwhile the untreated
-          condition keeps generating the state that alcohol reliably fixes.</p>
-
-        <p><strong>Drift is not a choice. It is a predictable consequence of a known neurology &mdash; which means
-          it can be designed for.</strong></p>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="seam seam-l" aria-hidden="true"><i></i></div>
-
-<section class="section g-cream" aria-labelledby="s3">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">03</span>
-        <h2 id="s3">The venture</h2>
-        <p class="sub">Infrastructure, not another service.</p>
-        <div class="rule" aria-hidden="true"></div>
-      </div>
-      <div class="flow rv">
-        <p class="lead">OTOS Continuity&trade; is a shared Continuity Layer between the person and the services
-          already around them &mdash; one shared Layer carrying many individual Threads across the services people
-          already use. Each Thread is one person&rsquo;s journey; the Layer holds them all at once, with authorised
-          partner views and separate service records.</p>
-
-        <p><strong>The intervention is clinical and belongs to clinicians &mdash; early ADHD diagnosis and correct
-          medication, urgently. OTOS does not do the intervention. It is what makes the intervention reachable, and
-          what holds it afterwards.</strong> Everything it does runs in two directions at once:</p>
-
-        <ol class="steps">
-          <li><strong>Inwards, to the person</strong> &mdash; micro check-ins of varying kinds through the day,
-            chosen by the person with their keyworker: prompts, medication reminders, saying hello &mdash; and small
-            engineered behaviour-reinforcement tasks that replicate the intensity and repetition of residential
-            rehab work. <em>&ldquo;Do a three-minute meditation.&rdquo;</em> <em>&ldquo;Write down the four Cs of
-            recovery and put the note on your fridge door.&rdquo;</em> The content belongs to the services &mdash;
-            OTOS is the infrastructure that carries it. Simple, small, constant &mdash; so the person is held
-            through the day, when a keyworker&rsquo;s reality is one call a fortnight.</li>
-          <li><strong>Outwards, to the services</strong> &mdash; every check-in is multi-purpose: a reply is a
-            signal &mdash; he&rsquo;s alive, engaged with the recovery. Even the delivery receipt is a signal
-            &mdash; the phone is on. <strong>Signals create the alerts. OTOS surfaces the alerts &mdash; before
-            crisis becomes consequence.</strong> Drift made visible, referrals recorded, delivery confirmed,
-            attendance logged and handoffs receipted.</li>
-        </ol>
-
-        <blockquote class="pull">Services deliver to it and receive from it. The person receives from it and
-          replies to it. Continuity does the holding both inwards and outwards.</blockquote>
-
-        <p>A check-in is not surveillance, it is a heartbeat: the person is still there, so care continues quietly
-          in the background. The alarm only matters because the silence is the thing that currently goes unseen.
-          Consent-led signals throughout, so the whole thing can be evaluated properly &mdash; including being
-          shown not to work.</p>
-
-        <p><strong>Nobody owns the risk after discharge, the gap between appointments, the time alone. Continuity
-          becomes a digital waiting room &mdash; not passive waiting, active holding &mdash; carrying the person
-          through it.</strong> Generic reminders do not understand shame, avoidance, relapse, ADHD paralysis or the
-          moment someone is close to disappearing.</p>
-
-        <p><strong>Every existing connection between a service and the person continues underneath,
-          unaffected.</strong></p>
-
-        <p><strong>Crucially, it needs no access to anyone&rsquo;s clinical record.</strong> NHS England&rsquo;s own
-          framework on integrating voluntary-sector organisations names the barrier plainly: caution about breaching
-          confidentiality or GDPR, and no legal framework to share data between the NHS and VCSE organisations. A
-          consented, non-clinical continuity layer sidesteps that entirely &mdash; which is why it can be tested in
-          months rather than waiting on a national programme.</p>
-
-        <h3>What OTOS is</h3>
-        <ul class="blist">
-          <li>A shared Continuity Layer between the person and the services already around them &mdash; non-clinical, always</li>
-          <li>Consent-led, with the person in control of their own thread</li>
-          <li>Grounded in NICE NG87 and RCPsych CR235 / CR243 guidance</li>
-          <li>Built from first-hand experience of this exact user journey</li>
-          <li>Designed to be tested, and to be stopped if it does not work</li>
-        </ul>
-
-        <h3>What OTOS is not</h3>
-        <ul class="blist">
-          <li>A clinical service, diagnostic tool or treatment</li>
-          <li>An electronic patient record &mdash; no record access, no write-back</li>
-          <li>A replacement for any existing service</li>
-          <li>A claim of guaranteed savings &mdash; modelling is labelled as modelling</li>
-          <li>A general messaging platform for existing activity</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="seam seam-r" aria-hidden="true"><i></i></div>
-
-<section class="section g-night on-night" aria-labelledby="s4">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">04</span>
-        <h2 id="s4">The founder</h2>
-        <p class="sub">I am not adjacent to this problem. I lived it.</p>
-        <div class="rule" aria-hidden="true"></div>
-      </div>
-      <div class="flow rv">
-        <p>I was diagnosed with ADHD in 2020. I was referred for an NHS medication review in <strong>March 2021
-          &mdash; and I am still on that waiting list. Five years, and counting.</strong></p>
-
-        <p>For twenty-five years, alcohol did the work my untreated ADHD had left undone. Then it stopped working
-          and started costing: six detoxes, two ICU admissions, a suicide attempt, A&amp;E, courts, probation and residential rehab at a
-          dual-diagnosis hospital &mdash; where my ADHD medication was removed on arrival because it was a
-          stimulant. I came out of that rehab with over a thousand hours of therapy in my body &mdash; thirteen
-          hours a day, twelve-stepped, addiction-informed at a level most people never reach. And it still
-          didn&rsquo;t hold. Every service I met did its own job properly. The system saw the alcohol, the crisis,
-          the admissions and the collapse. It did not connect the documented ADHD underneath quickly enough to
-          change the trajectory.</p>
-
-        <p>In September 2025 I reached the right medication privately, funded by my parents. I felt the change
-          within hours. The recovery work that had floated for years finally landed &mdash; not because the
-          addiction work hadn&rsquo;t been good, it had been excellent, but because I finally had a brain
-          underneath that could use the hard work. And in April 2026 an independent consultant psychiatrist wrote
-          what nobody had connected: <em>&ldquo;adult ADHD, previously complicated with excess alcohol use to
-          self-medicate inadequately managed ADHD symptoms.&rdquo;</em></p>
-
-        <blockquote class="pull">I did not recover by waiting my turn. I recovered by navigating a fragmented system
-          fast enough to reach the intervention that changed my life. My story isn&rsquo;t unique. My survival is.</blockquote>
-
-        <p><strong>ADHD is a disability under the Equality Act 2010.</strong> I am not an applicant who happens to
-          have relevant lived experience &mdash; I am building the thing I needed and could not get, for the people
-          who cannot do what I did. Many of them do not yet know they have ADHD at all. They are simply living the
-          pattern I lived.</p>
-
-        <p>That experience is not the pitch. <strong>It is the design specification.</strong> I am now part of the
-          APPIE network &mdash; the NIHR Policy Research Unit in Addictions&rsquo; national lived-experience
-          research network &mdash; and working towards a research project where
-          lived-experience contributors are named as co-applicants, not thanked in a footnote.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="seam seam-l" aria-hidden="true"><i></i></div>
-
-<section class="section g-beige" aria-labelledby="s5">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">05</span>
-        <h2 id="s5">The award</h2>
-        <p class="sub">What the money does.</p>
-        <div class="rule" aria-hidden="true"></div>
-      </div>
-      <div class="flow rv">
-        <p class="lead">Twelve months, three stages, and a specific thing that exists at the end of each. This award
-          does not build the product &mdash; it builds the case that makes the product fundable.</p>
-
-        <div class="tablewrap"><table class="tbl">
-          <thead><tr><th scope="col">When</th><th scope="col">What gets built</th></tr></thead>
-          <tbody>
-            <tr><td data-label="When">Months 1&ndash;3</td><td data-label="What gets built">The local evidence base: the local picture assembled and the research question defined.</td></tr>
-            <tr><td data-label="When">Months 4&ndash;6</td><td data-label="What gets built">The governance pack that makes a service able to say yes: data protection impact assessment, consent model, safeguarding protocol, information-governance review and clinical safety documentation authored with a registered clinical safety officer.</td></tr>
-            <tr><td data-label="When">Months 7&ndash;12</td><td data-label="What gets built">Insurance, partner agreements &mdash; and a costed, specified demonstrator that a commissioner or funder can be asked to fund.</td></tr>
-            <tr><td data-label="When">Throughout</td><td data-label="What gets built">Every claim evidenced or dropped.</td></tr>
-          </tbody>
-        </table></div>
-
-        <p><strong>What we will measure:</strong> how many handoffs are receipted &middot; what proportion of
-          participants reach the next step &middot; how quickly someone re-engages after drift &middot; what
-          participants say about being held &middot; and &mdash; asked openly &mdash; whether we <em>add</em> burden
-          for the practitioners involved. <strong>Small. Surgical. Enough to prove or stop.</strong></p>
-
-        <div class="statline"><span class="fig">&pound;8,000</span><p class="desc">Starting Up Award</p><p class="src">&pound;500 of it is allocated to UnLtd events and workshops; none of it pays for my time</p></div>
-
-        <p>The award funds the twelve months between &ldquo;this is a credible idea&rdquo; and &ldquo;here is a
-          specified, governed, evidenced proposition a commissioner can be asked to fund.&rdquo; That is the only
-          gap this venture has left &mdash; and it is not one that bootstrapping crosses.</p>
-
-        <blockquote class="pull">Everything you are reading was built without funding. The company is formed, the
-          domain and the site are mine. The only thing I have not been able to buy is the professional input
-          &mdash; the clinical safety documentation, the data protection impact assessment and the insurance. That is
-          exactly what the &pound;8,000 is for.</blockquote>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="seam seam-r" aria-hidden="true"><i></i></div>
-
-<section class="section g-cream" aria-labelledby="s6">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <div class="grid">
-      <div class="rail rv">
-        <span class="num" aria-hidden="true">06</span>
-        <h2 id="s6">Sustainability</h2>
-        <p class="sub">Three routes, and one of them is already open.</p>
-        <div class="rule" aria-hidden="true"></div>
-      </div>
-      <div class="flow rv">
-        <h3>1 &middot; Local-authority and NHS commissioning &mdash; live now</h3>
-        <p>A public health commissioner in Cambridgeshire asked to see the full proposal following a meeting in
-          April 2026. The proposition is cost redirection, not new spending: drug and alcohol budgets already carry
-          a heavy reactive load &mdash; crisis presentations, revolving-door admissions and repeat treatment episodes
-          &mdash; and continuity is a cheaper place to spend. The published evidence supports the direction: roughly
-          &pound;17,000 in excess public-sector cost per adult with unsupported ADHD per year, from the independent
-          ADHD Taskforce reporting to NHS England. That is Danish registry data compared against same-sex siblings,
-          and it describes adults with ADHD rather than adults with ADHD and addiction &mdash; this cohort would
-          plausibly cost more, which is an argument to test rather than a number to assert.</p>
-
-        <h3>2 &middot; Research funding</h3>
-        <p>The lived-experience research route through APPIE, and the search for a Principal Investigator, opens
-          NIHR and comparable funding, where lived-experience contributors are named co-applicants. A demonstrator produces exactly the local evidence a research bid needs &mdash; and a
-          research frame gives the demonstrator a credible evaluation.</p>
-
-        <h3>3 &middot; Licensing, once evidenced</h3>
-        <p>Voluntary-sector organisations and NHS services paying for a continuity layer that needs no record
-          access, no systems integration and no legal framework that doesn&rsquo;t yet exist. Low integration is
-          what makes it affordable &mdash; and what makes it possible at all.</p>
-
-        <p><strong>Nothing gets built until someone has paid to establish the question is real.</strong></p>
-
-        <h3>Evidence and sources</h3>
-        <ul class="blist">
-          <li>Royal College of Psychiatrists, <em>ADHD in Adults: Good practice guidance</em>, CR235 (2023) &mdash; &sect;11.1 on prescribed stimulants and dependence risk; joint management between services.</li>
-          <li>Royal College of Psychiatrists, CR243, <em>Co-occurring substance use and mental health disorders</em> (2025) &mdash; assertive linkage as a core role; reasonable adjustments for neurodivergence.</li>
-          <li><em>Report of the independent ADHD Taskforce</em>, NHS England (2025) &mdash; &pound;17bn avoidable annual cost; excess per-adult public-sector cost.</li>
-          <li>NHS England Digital &mdash; <em>ADHD Management Information</em>, published 28 May 2026 &mdash; open referrals that may be for an ADHD assessment, March 2026.</li>
-          <li>National Drug Treatment Monitoring System (NDTMS), 2024/25 &mdash; adults in structured treatment, Cambridgeshire and Peterborough.</li>
-          <li>NHS England &mdash; framework for addressing practical barriers to integration of VCSE organisations in integrated care systems &mdash; GDPR and legal-framework barriers to data sharing.</li>
-          <li>START (France), PMID 41218347 &mdash; improvement in addictive disorders six months after ADHD diagnosis within addiction-treatment pathways. Comparator evidence only, not a projected OTOS outcome.</li>
-        </ul>
-        <p class="fine"><strong>How to read the figures on this page:</strong> published research is cited to its
-          source. Nothing here is an OTOS outcome &mdash; we have not run a pilot, and we do not present modelling
-          as fact. The demonstrator exists to replace estimates with local evidence, including evidence that the
-          idea does not hold.</p>
-      </div>
+I will also say plainly: I am very well. I am correctly medicated, stable, working harder than I have in twenty years and able to run a business, but only because I paid for it privately. I am also still on the NHS medication review list I was referred to in March 2021: five years on, still unreviewed and still with no shared-care agreement in place. That is the whole point. I only got out of crisis because I learnt my way around a fragmented system and then could afford to medicate privately without waiting for it. Many people on that list are in severe crisis, touching many other services that also do not communicate, and cannot do either — and that is who this venture is for.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t2_3_c">1,888 / 2,000</span>
+      <button onclick="copyBox('t2_3','2.3')">Copy edited text</button>
     </div>
   </div>
 </section>
 
-<section class="signoff">
-  <span class="grain" aria-hidden="true"></span>
-  <div class="wrap">
-    <span class="bi" aria-hidden="true"></span>
-    <p class="display rv"><span class="line">Thank you for reading it properly.</span><span class="line em">Anything you need, just ask me.</span></p>
-    <div class="cta rv">
-      <a class="btn-primary" href="mailto:dean.butler@otos.digital">dean.butler@otos.digital</a>
-      <a class="btn-ghost" href="tel:+447585899235">07585 899 235</a>
+<h2 class="sect">Section 3 · About you</h2>
+
+<section class="card">
+  <div class="boxhead"><span class="num">Box 3.1</span><span class="count">1,971 / 2,000</span></div>
+  <div class="q">Tell us about yourself and what led you to start your social venture.</div>
+  <div class="a"><p>I drank daily from fifteen. For twenty-five years it was not a problem. It was solving one I did not know I had. ADHD was not a thing to me. Drinking gave me focus, function, confidence, motivation and lifted a morning fog I could not name.</p>
+<p>At about forty I crossed the invisible line into dependency. I wanted out. But every attempt to stop drinking also took away my ADHD medication — the one thing holding the condition underneath. You cannot go one way and you cannot go the other. People like me are trapped right there.</p>
+<p>I was diagnosed privately in November 2020, funded by my parents. It still appears on no patient-facing record — not the NHS App, not MyChart — after a surgery change lost my history. The ADHD team hold it. Nobody else was told.</p>
+<p>I have been on an NHS medication-review list since the Shared Care Agreement of 21 January 2021. That agreement was lost with the surgery change. Five years on I am still unreviewed with no shared care in place and unable to register elsewhere because my diagnosis is private, not Right to Choose.</p>
+<p>In those five years: six detoxes, repeated A&amp;E, two ICU admissions, a suicide attempt, residential rehab, arrests and courts. Five colours of crisis, five records, none talking to the others. Every service did its job. Nobody held the thread, and nobody asked what was underneath.</p>
+<p>In April 2026 an independent consultant psychiatrist wrote what nobody had connected: &quot;adult ADHD, previously complicated with excess alcohol use to self-medicate inadequately managed ADHD symptoms.&quot;</p>
+<p>The correct treatment was life-changing and immediate. I have worked twelve-hour days since, decorated my flat, committed to the gym.</p>
+<p>I am not angry at anyone. Everyone was doing their job but significantly, on my final, engineered detox, the alcohol liaison nurse said she would appreciate &quot;more places to signpost&quot; as she had &quot;nowhere left to send me&quot;. I said, &quot;next time we meet, I won&#x27;t be your patient, I&#x27;ll be your partner.&quot;</p></div>
+  
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t3_1" data-box="3.1" spellcheck="true">I drank daily from fifteen. For twenty-five years it was not a problem. It was solving one I did not know I had. ADHD was not a thing to me. Drinking gave me focus, function, confidence, motivation and lifted a morning fog I could not name.
+
+At about forty I crossed the invisible line into dependency. I wanted out. But every attempt to stop drinking also took away my ADHD medication — the one thing holding the condition underneath. You cannot go one way and you cannot go the other. People like me are trapped right there.
+
+I was diagnosed privately in November 2020, funded by my parents. It still appears on no patient-facing record — not the NHS App, not MyChart — after a surgery change lost my history. The ADHD team hold it. Nobody else was told.
+
+I have been on an NHS medication-review list since the Shared Care Agreement of 21 January 2021. That agreement was lost with the surgery change. Five years on I am still unreviewed with no shared care in place and unable to register elsewhere because my diagnosis is private, not Right to Choose.
+
+In those five years: six detoxes, repeated A&amp;E, two ICU admissions, a suicide attempt, residential rehab, arrests and courts. Five colours of crisis, five records, none talking to the others. Every service did its job. Nobody held the thread, and nobody asked what was underneath.
+
+In April 2026 an independent consultant psychiatrist wrote what nobody had connected: &quot;adult ADHD, previously complicated with excess alcohol use to self-medicate inadequately managed ADHD symptoms.&quot;
+
+The correct treatment was life-changing and immediate. I have worked twelve-hour days since, decorated my flat, committed to the gym.
+
+I am not angry at anyone. Everyone was doing their job but significantly, on my final, engineered detox, the alcohol liaison nurse said she would appreciate &quot;more places to signpost&quot; as she had &quot;nowhere left to send me&quot;. I said, &quot;next time we meet, I won&#x27;t be your patient, I&#x27;ll be your partner.&quot;</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t3_1_c">1,971 / 2,000</span>
+      <button onclick="copyBox('t3_1','3.1')">Copy edited text</button>
     </div>
-    <p class="sigline">Dean Butler &middot; Founder, OTOS Digital Ltd</p>
+  </div>
+</section>
+<section class="card">
+  <div class="boxhead"><span class="num">Boxes 3.2 – 3.5</span></div>
+  <div class="a"><p>Direct experience: <b>Yes</b> · Indirect: <b>Yes</b> · Professional: <b>Yes</b></p>
+  <p>Your experiences (max 3): <b>Addiction (of any kind)</b> · <b>Multiple complex needs</b> · <b>Neurodiversity</b></p></div>
+</section>
+
+<h2 class="sect">Sections 4 – 5 · Venture and programme</h2>
+<section class="card">
+  <div class="boxhead"><span class="num">Boxes 4.1 – 5.5</span></div>
+  <div class="a">
+  <p>Stage: <b>Forming — I have an idea</b> · Programme: <b>Starting Up — Millennium Awards Trust</b></p>
+  <p>Name: <b>OTOS Continuity™</b> · Website: <b>https://unltd.otos.network</b> · Location: <b>Cambridgeshire and Peterborough</b></p>
+  <p><b>5.4 Main groups</b> — ruled, TL-0400:</p>
+  <ul class="picks"><li>People with addiction and/or in recovery</li><li>Individuals who identify as neurodivergent</li><li><span class="flag">People with mental health problems</span> — changed from “Disabled people”; set this in the portal</li></ul>
+  <p><b>5.5 Areas of focus</b> — ruled, TL-0400:</p>
+  <ul class="picks"><li>Mental health and wellbeing</li><li>Digital products or services</li><li>Care in the community</li></ul>
   </div>
 </section>
 
-</main>
+<h2 class="sect">Section 6 · Impact &amp; inclusion</h2>
 
-<footer class="foot">
-  <div class="wrap">
-    <div class="frow">
-      <img src="assets/lockup-white.png" alt="OTOS Continuity" width="316" height="130">
-      <p class="fcontact"><b>Dean Butler</b> &middot; Founder, OTOS Digital Ltd &mdash; Out The Other Side&trade; &middot; Co. No. 17084455<br>
-        <a href="mailto:dean.butler@otos.digital">dean.butler@otos.digital</a> &middot;
-        <a href="tel:+447585899235">07585 899 235</a></p>
+<section class="card">
+  <div class="boxhead"><span class="num">Box 6.1</span><span class="count">1,996 / 2,000</span></div>
+  <div class="q">What is the social or environmental issue you are addressing?</div>
+  <div class="a"><p>Suspected ADHD-driven addiction. The system treats the crisis. Not always the condition driving it.</p>
+<p>For a significant and identifiable group of adults, addiction is not the whole clinical picture. The visible crisis is alcohol, relapse, detox, A&amp;E. The driver underneath is untreated or inadequately treated ADHD. The system saw what was on fire. It did not ask what was burning.</p>
+<p>And the wait has a consequence: repeated long enough, self-medication crosses an invisible line and the body physically requires it. Stopping the drinking removes the only regulation there is. Diagnosed, rehab often removes the ADHD medication at the door because it is a stimulant. People cycle through revolving service doors.</p>
+<p>NICE NG87 (rec 1.4.3) names &quot;the increased risk of substance misuse and self-medication&quot;. The Royal College of Psychiatrists&#x27; CR235 states that substance misuse &quot;may be twice as common among individuals with ADHD…and tends to begin earlier&quot;.</p>
+<p>The scale is published: up to 803,658 referrals that may be for an ADHD assessment in England, March 2026 (NHS England Digital, 28 May 2026), a count NHS England says under-represents the true number. The independent ADHD Taskforce puts the avoidable cost of unsupported ADHD at £17 billion or more a year.</p>
+<p>Locally, 4,690 adults are in structured addiction treatment in Cambridgeshire and Peterborough (NDTMS 2024/25), growth +12.3% against a national +6%.</p>
+<p>Every service owns its own episode. Nobody owns the time between them. It is not a gap in care — it is unowned risk. A referral is not proof that a connection happened. A discharge plan is not proof that the next step landed. A waiting list is not a holding layer.</p>
+<p>So people wait with unmanaged ADHD, then reappear — in A&amp;E, in addiction services, in crisis teams, in detox, in rehab, in housing pressure, in police contact, in mental-health crisis, sometimes in prison. By the time the system catches up, the original need has become much more expensive and much harder to unwind.</p></div>
+  <div class="note">Fire line in (TL-0408): “The system saw what was on fire. It did not ask what was burning.” Paste fresh.</div>
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t6_1" data-box="6.1" spellcheck="true">Suspected ADHD-driven addiction. The system treats the crisis. Not always the condition driving it.
+
+For a significant and identifiable group of adults, addiction is not the whole clinical picture. The visible crisis is alcohol, relapse, detox, A&amp;E. The driver underneath is untreated or inadequately treated ADHD. The system saw what was on fire. It did not ask what was burning.
+
+And the wait has a consequence: repeated long enough, self-medication crosses an invisible line and the body physically requires it. Stopping the drinking removes the only regulation there is. Diagnosed, rehab often removes the ADHD medication at the door because it is a stimulant. People cycle through revolving service doors.
+
+NICE NG87 (rec 1.4.3) names &quot;the increased risk of substance misuse and self-medication&quot;. The Royal College of Psychiatrists&#x27; CR235 states that substance misuse &quot;may be twice as common among individuals with ADHD…and tends to begin earlier&quot;.
+
+The scale is published: up to 803,658 referrals that may be for an ADHD assessment in England, March 2026 (NHS England Digital, 28 May 2026), a count NHS England says under-represents the true number. The independent ADHD Taskforce puts the avoidable cost of unsupported ADHD at £17 billion or more a year.
+
+Locally, 4,690 adults are in structured addiction treatment in Cambridgeshire and Peterborough (NDTMS 2024/25), growth +12.3% against a national +6%.
+
+Every service owns its own episode. Nobody owns the time between them. It is not a gap in care — it is unowned risk. A referral is not proof that a connection happened. A discharge plan is not proof that the next step landed. A waiting list is not a holding layer.
+
+So people wait with unmanaged ADHD, then reappear — in A&amp;E, in addiction services, in crisis teams, in detox, in rehab, in housing pressure, in police contact, in mental-health crisis, sometimes in prison. By the time the system catches up, the original need has become much more expensive and much harder to unwind.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t6_1_c">1,996 / 2,000</span>
+      <button onclick="copyBox('t6_1','6.1')">Copy edited text</button>
     </div>
-    <p class="fine"><strong>Boundary.</strong> OTOS does not diagnose, prescribe, treat, replace services or make
-      clinical decisions. OTOS surfaces signals; partner teams make the decisions. No endorsement is assumed or
-      implied &mdash; no organisation named on this page is a confirmed partner; services are named only as part of
-      the founder&rsquo;s own journey, and any future role would be theirs to choose, only where agreed. No therapy
-      content, notes or disclosures are part of OTOS; no NHS record access or write-back; no access to the NHS
-      Single Patient Record is required. Any future work would be consent-led, partner-shaped and subject to
-      governance and qualified clinical leadership.</p>
-    <p class="fine"><strong>Neurologically Informed Addiction (NIA)</strong> is founder-proposed terminology. It has
-      not been submitted to any professional body and is not used elsewhere. It is a way of looking at ADHD-driven
-      addiction through a different lens rather than grouping it with dual diagnosis or co-morbidity &mdash; because
-      without a named problem there is no named treatment.</p>
-    <p class="fine">Private briefing prepared for UnLtd, August 2026. Not for publication or onward circulation.</p>
   </div>
-</footer>
+</section>
 
-<script src="assets/otos.js"></script>
-</body>
-</html>
+<section class="card">
+  <div class="boxhead"><span class="num">Box 6.2</span><span class="count">1,981 / 2,000</span></div>
+  <div class="q">How do you plan to tackle this social or environmental issue?</div>
+  <div class="a"><p>The intervention is clinical and belongs to clinicians. OTOS surfaces the communications between a person and the services around them, so the intervention can be reached and can hold.</p>
+<p>OTOS Continuity is a shared Layer between the person and their services — a protective ring around them, not a system above them. Each service has its own interface on the Layer, delivering and receiving. Every existing connection between service and person continues separately, unaffected. Nothing changes in how existing services work.</p>
+<p>People are held and contacted daily and automatically instead of fortnightly calls and official appointments. &quot;Micro Check-ins&quot;, including recovery content, aid keyworkers whose time is scarce, increase connection, re-enforce new behaviours and maintain continuity of service in the risky gap.</p>
+<p>A check-in is not surveillance, it is a heartbeat: the person is still there, so care continues quietly. Outwards, the same thread makes drift visible, records referrals, confirms delivery and logs attendance, so a handoff is confirmed, not assumed.</p>
+<p>The Layer carries many individual Threads, with authorised partner views and separate service records. No clinical record access is needed, so it can be tested in months.</p>
+<p>In practice it is a chain that does not exist yet: Alcohol liaison meets someone for the third time and refers them onto the Layer. The ADHD service picks it up with context attached: a high-intensity user of urgent care, not a routine referral. The drug and alcohol service is notified. Active waiting starts at once, not after a diagnosis. Assessment and titration begin and addiction work restarts knowing the condition underneath is treated.</p>
+<p>Care happens in moments. Continuity happens in the days between.</p>
+<p>This award does not build the product; it builds the case that makes it fundable: months 1–3 the local evidence base; 4–6 the governance pack that lets a service say yes; 7–12 insurance, agreements and a costed demonstrator.</p></div>
+  <div class="note">Restored to your original order (TL-0405); “on one platform” sentence replaced by the moments/days line (TL-0408). Paste fresh.</div>
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t6_2" data-box="6.2" spellcheck="true">The intervention is clinical and belongs to clinicians. OTOS surfaces the communications between a person and the services around them, so the intervention can be reached and can hold.
+
+OTOS Continuity is a shared Layer between the person and their services — a protective ring around them, not a system above them. Each service has its own interface on the Layer, delivering and receiving. Every existing connection between service and person continues separately, unaffected. Nothing changes in how existing services work.
+
+People are held and contacted daily and automatically instead of fortnightly calls and official appointments. &quot;Micro Check-ins&quot;, including recovery content, aid keyworkers whose time is scarce, increase connection, re-enforce new behaviours and maintain continuity of service in the risky gap.
+
+A check-in is not surveillance, it is a heartbeat: the person is still there, so care continues quietly. Outwards, the same thread makes drift visible, records referrals, confirms delivery and logs attendance, so a handoff is confirmed, not assumed.
+
+The Layer carries many individual Threads, with authorised partner views and separate service records. No clinical record access is needed, so it can be tested in months.
+
+In practice it is a chain that does not exist yet: Alcohol liaison meets someone for the third time and refers them onto the Layer. The ADHD service picks it up with context attached: a high-intensity user of urgent care, not a routine referral. The drug and alcohol service is notified. Active waiting starts at once, not after a diagnosis. Assessment and titration begin and addiction work restarts knowing the condition underneath is treated.
+
+Care happens in moments. Continuity happens in the days between.
+
+This award does not build the product; it builds the case that makes it fundable: months 1–3 the local evidence base; 4–6 the governance pack that lets a service say yes; 7–12 insurance, agreements and a costed demonstrator.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t6_2_c">1,981 / 2,000</span>
+      <button onclick="copyBox('t6_2','6.2')">Copy edited text</button>
+    </div>
+  </div>
+</section>
+
+<section class="card">
+  <div class="boxhead"><span class="num">Box 6.3</span><span class="count">1,997 / 2,000</span></div>
+  <div class="q">What is/will be the impact of your work?</div>
+  <div class="a"><p>Short term, this award funds no service: it funds a local evidence base, a governance pack and a costed demonstrator — what a service needs to agree.</p>
+<p>Then the test: up to 50 adults, 12 weeks active, read at 3 and 6 months, where consent and governance allow. Decision-grade local evidence, not a rollout, not proof. START (PMID 41218347; French, retrospective, no control group): 61.3% showed improvement in addictive disorders six months after ADHD diagnosis. Twelve weeks is a residential rehab stay; this mirrors it and adds the medication mine was missing.</p>
+<p>People are contacted at least daily, automatically, and the thread does not stop at discharge — where one human follow-up could prevent catastrophic harm.</p>
+<p>Services reasonably respond to the addiction. But if the ADHD remains untouched, the work does not hold. Therapy, groups and keywork land on a brain that cannot sequence or retain them. People are asked to recover using the exact executive functions their unmanaged ADHD has impaired.</p>
+<p>The sequence is the argument: treat the ADHD driver, then hold both pathways long enough for recovery to land. The addiction work becomes usable and cost should fall. Continuity alone does not do that; medicine plus continuity is what is tested.</p>
+<p>This is not new cost — the old cost doesn&#x27;t disappear: it is a smarter use of what the system already spends.</p>
+<p>NHS England&#x27;s ADHD Taskforce says ADHD care &quot;should be seamless&quot; with &quot;a single, accessible front door&quot; — the impact I am aiming at.</p>
+<p>Partner burden is measured as a pre-pilot success criterion: if it takes too long, we have failed. The read-outs and the simplest questions: did they have ADHD? did they get out of addiction faster? are they relapsing?</p>
+<p>Not every addiction is ADHD. But for a real, high-cost, high-risk cohort the system may be treating addiction crisis while the deeper cause remains unresolved — and until it is, it repeats.</p>
+<p>This is not just for the person trapped and suffering; it is for everyone who loves them.</p></div>
+  <div class="note">Compressed and strengthened (TL-0409): the START 61.3% figure is in with its full caveat; no line cut, room made by tightening. Paste fresh.</div>
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t6_3" data-box="6.3" spellcheck="true">Short term, this award funds no service: it funds a local evidence base, a governance pack and a costed demonstrator — what a service needs to agree.
+
+Then the test: up to 50 adults, 12 weeks active, read at 3 and 6 months, where consent and governance allow. Decision-grade local evidence, not a rollout, not proof. START (PMID 41218347; French, retrospective, no control group): 61.3% showed improvement in addictive disorders six months after ADHD diagnosis. Twelve weeks is a residential rehab stay; this mirrors it and adds the medication mine was missing.
+
+People are contacted at least daily, automatically, and the thread does not stop at discharge — where one human follow-up could prevent catastrophic harm.
+
+Services reasonably respond to the addiction. But if the ADHD remains untouched, the work does not hold. Therapy, groups and keywork land on a brain that cannot sequence or retain them. People are asked to recover using the exact executive functions their unmanaged ADHD has impaired.
+
+The sequence is the argument: treat the ADHD driver, then hold both pathways long enough for recovery to land. The addiction work becomes usable and cost should fall. Continuity alone does not do that; medicine plus continuity is what is tested.
+
+This is not new cost — the old cost doesn&#x27;t disappear: it is a smarter use of what the system already spends.
+
+NHS England&#x27;s ADHD Taskforce says ADHD care &quot;should be seamless&quot; with &quot;a single, accessible front door&quot; — the impact I am aiming at.
+
+Partner burden is measured as a pre-pilot success criterion: if it takes too long, we have failed. The read-outs and the simplest questions: did they have ADHD? did they get out of addiction faster? are they relapsing?
+
+Not every addiction is ADHD. But for a real, high-cost, high-risk cohort the system may be treating addiction crisis while the deeper cause remains unresolved — and until it is, it repeats.
+
+This is not just for the person trapped and suffering; it is for everyone who loves them.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t6_3_c">1,997 / 2,000</span>
+      <button onclick="copyBox('t6_3','6.3')">Copy edited text</button>
+    </div>
+  </div>
+</section>
+<section class="card">
+  <div class="boxhead"><span class="num">Boxes 6.4 – 6.5</span></div>
+  <div class="q">People benefitted directly in the last 12 months · expected in the next 12 months</div>
+  <div class="a"><p><b>0</b> and <b>0</b> — deliberate. Box 6.6 below is the defence, and TL-0379 stands behind it: no prevalence-times-population number appears anywhere in this application.</p></div>
+</section>
+
+<section class="card">
+  <div class="boxhead"><span class="num">Box 6.6</span><span class="count">1,842 / 2,000</span></div>
+  <div class="q">You can use this space to explain how you arrived at these figures.</div>
+  <div class="a"><p>Both figures are zero and that is deliberate rather than an oversight.</p>
+<p>The last 12 months. OTOS Continuity has not delivered a service to anyone. Nothing has been piloted and no cohort has been recruited. I have deliberately kept it under wraps for the last eight or nine months and have engaged nobody as OTOS. I have spent that time building the evidence base, educating myself on the landscape, then the design and the governance thinking — but nobody has received anything from me, so the honest answer is nobody.</p>
+<p>The next 12 months. This award does not fund service delivery, so I am not forecasting any. It funds the stage before it: the local evidence base, the data protection impact assessment, the consent model, the safeguarding protocol, the information-governance review, clinical safety documentation authored with a registered clinical safety officer, insurance and partner agreements. That is the work that makes a service possible to say yes to. Until it exists, no responsible partner can let me near their cohort — and I would not ask them to.</p>
+<p>The demonstrator described earlier in this application — up to 50 adults, 12 weeks active — sits beyond this window. It needs research funding and formal partner agreements that do not exist yet, so counting those people here would be counting something I cannot promise. This award pays for the governance that has to come first, not for the cohort that follows it.</p>
+<p>I could put a number here. Every route to one runs through published prevalence rates multiplied together. The numbers that fall out are exciting. But I am not willing to present an estimate as a forecast in an application whose whole strength is that everything in it can be checked.</p>
+<p>The first cohort follows the governance, not this award. I would rather show you a truthful zero and a costed route to it.</p></div>
+  
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t6_6" data-box="6.6" spellcheck="true">Both figures are zero and that is deliberate rather than an oversight.
+
+The last 12 months. OTOS Continuity has not delivered a service to anyone. Nothing has been piloted and no cohort has been recruited. I have deliberately kept it under wraps for the last eight or nine months and have engaged nobody as OTOS. I have spent that time building the evidence base, educating myself on the landscape, then the design and the governance thinking — but nobody has received anything from me, so the honest answer is nobody.
+
+The next 12 months. This award does not fund service delivery, so I am not forecasting any. It funds the stage before it: the local evidence base, the data protection impact assessment, the consent model, the safeguarding protocol, the information-governance review, clinical safety documentation authored with a registered clinical safety officer, insurance and partner agreements. That is the work that makes a service possible to say yes to. Until it exists, no responsible partner can let me near their cohort — and I would not ask them to.
+
+The demonstrator described earlier in this application — up to 50 adults, 12 weeks active — sits beyond this window. It needs research funding and formal partner agreements that do not exist yet, so counting those people here would be counting something I cannot promise. This award pays for the governance that has to come first, not for the cohort that follows it.
+
+I could put a number here. Every route to one runs through published prevalence rates multiplied together. The numbers that fall out are exciting. But I am not willing to present an estimate as a forecast in an application whose whole strength is that everything in it can be checked.
+
+The first cohort follows the governance, not this award. I would rather show you a truthful zero and a costed route to it.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t6_6_c">1,842 / 2,000</span>
+      <button onclick="copyBox('t6_6','6.6')">Copy edited text</button>
+    </div>
+  </div>
+</section>
+
+<section class="card">
+  <div class="boxhead"><span class="num">Box 6.7</span><span class="count">1,912 / 2,000</span></div>
+  <div class="q">How will you ensure that your work is accessible and inclusive?</div>
+  <div class="a"><p>The people this is for are already inside services. They do not need finding. They need surgically targeting through the services they are already in, not advertising. I can describe exactly who: adults in treatment for alcohol or drugs whose ADHD is suspected, unconfirmed, awaiting diagnosis, sitting on a medication review list or in titration already.</p>
+<p>Accessibility is the product, not a feature of it. The whole design assumes the user has impaired working memory, difficulty initiating and no reliable felt sense of future time — because that is the condition it serves. For that brain, &quot;ring this number next week&quot; may not exist as a felt concept. It is built for the brain it serves, not the brain services see.</p>
+<p>Reaching them is not the same as holding them. People with addiction and untreated ADHD do not disengage loudly. They go quiet but turn up again in a new crisis. That is the gap OTOS Continuity is trying to close.</p>
+<p>On involving people in the design, services contribute as little or as much as they see fit and set their own input levels rather than being handed a specification. Examples being, the alcohol liaison nurse needs one &quot;refer to Continuity&quot; button on a device and nothing else. The recovery education service would carry far more, because it is where the ADHD team send you to wait and learn. OTOS can put that learning in the participant&#x27;s hands. The ADHD team decide what statuses they post, and nothing more is asked of them. It is built for minimum extra effort from clinicians, nurses and keyworkers and nothing is agreed with any of them yet.</p>
+<p>On the people who would use it, I will be straight. Nothing formal exists yet. What exists is that I would have been one of them. I needed this kind of attention five years ago. But it cannot rest on one person. I cannot describe participants I have spoken to, because there are none and I would rather say so than invent them.</p></div>
+  <div class="note">Rebuilt around the question (TL-0407): accessibility-is-the-product passage in, your “Examples being,” wording, closer ends “…not the brain services see.” Paste fresh into the portal.</div>
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t6_7" data-box="6.7" spellcheck="true">The people this is for are already inside services. They do not need finding. They need surgically targeting through the services they are already in, not advertising. I can describe exactly who: adults in treatment for alcohol or drugs whose ADHD is suspected, unconfirmed, awaiting diagnosis, sitting on a medication review list or in titration already.
+
+Accessibility is the product, not a feature of it. The whole design assumes the user has impaired working memory, difficulty initiating and no reliable felt sense of future time — because that is the condition it serves. For that brain, &quot;ring this number next week&quot; may not exist as a felt concept. It is built for the brain it serves, not the brain services see.
+
+Reaching them is not the same as holding them. People with addiction and untreated ADHD do not disengage loudly. They go quiet but turn up again in a new crisis. That is the gap OTOS Continuity is trying to close.
+
+On involving people in the design, services contribute as little or as much as they see fit and set their own input levels rather than being handed a specification. Examples being, the alcohol liaison nurse needs one &quot;refer to Continuity&quot; button on a device and nothing else. The recovery education service would carry far more, because it is where the ADHD team send you to wait and learn. OTOS can put that learning in the participant&#x27;s hands. The ADHD team decide what statuses they post, and nothing more is asked of them. It is built for minimum extra effort from clinicians, nurses and keyworkers and nothing is agreed with any of them yet.
+
+On the people who would use it, I will be straight. Nothing formal exists yet. What exists is that I would have been one of them. I needed this kind of attention five years ago. But it cannot rest on one person. I cannot describe participants I have spoken to, because there are none and I would rather say so than invent them.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t6_7_c">1,912 / 2,000</span>
+      <button onclick="copyBox('t6_7','6.7')">Copy edited text</button>
+    </div>
+  </div>
+</section>
+
+<h2 class="sect">Section 7 · Sustainability</h2>
+
+<section class="card">
+  <div class="boxhead"><span class="num">Box 7.1</span><span class="count">1,998 / 2,000</span></div>
+  <div class="q">How do you plan to generate income to keep your social venture going?</div>
+  <div class="a"><p>I want to be straight: I have no revenue, no contract and no funding secured. The company exists as a vehicle, something that can hold the work and its value, and be invested in or contracted with when there is something to contract for.</p>
+<p>Five routes, and they fund different things, which matters:</p>
+<p>Research funding funds the study rather than the company — a research team testing whether the thesis holds. That is the primary route I am pursuing and it needs an academic principal investigator, which I do not yet have, though one is in sight.</p>
+<p>Local commissioning funds the service where it is delivered. In Cambridgeshire the £47.8m adult drug and alcohol contract has recently been re-procured and awarded, so there is no procurement route in. The realistic route is redirection of spend happening now, through local public health commissioning and that is a live conversation rather than a hypothetical one.</p>
+<p>Investment would fund the company itself, in exchange for equity. That route is open and a colleague leads it.</p>
+<p>The fifth I am testing rather than relying on. The East of England Clinical Digital Health Solutions Framework runs to September 2028 and is free for any NHS body to use. New suppliers cannot join mid-term, but those already on it can add products to the catalogue, so licensing through an existing supplier could reach NHS bodies across the region without a new procurement. I have no evidence on how often that happens, so I treat it as worth testing, not as a route known to work.</p>
+<p>Grants like this one fund the founder and the groundwork, which is the stage I am at.</p>
+<p>The eventual model is a licensed Continuity infrastructure paid for by the organisations that benefit from people staying connected — commissioners and providers, not the individuals using it. Nobody in this position should ever be asked to pay for Continuity. I do not yet have proof of demand at a price and I am not going to claim I do. Establishing that is part of what the demonstrator is for.</p></div>
+  <div class="note">Checked: “a colleague leads it” = Gareth Owen (TL-0397). “An academic principal investigator… one is in sight” = Prof. Samuele Cortese, Southampton (TL-0399). Both lines stand as written.</div>
+  <div class="editwrap">
+    <div class="editlabel">Your edit — type here, then copy it out</div>
+    <textarea id="t7_1" data-box="7.1" spellcheck="true">I want to be straight: I have no revenue, no contract and no funding secured. The company exists as a vehicle, something that can hold the work and its value, and be invested in or contracted with when there is something to contract for.
+
+Five routes, and they fund different things, which matters:
+
+Research funding funds the study rather than the company — a research team testing whether the thesis holds. That is the primary route I am pursuing and it needs an academic principal investigator, which I do not yet have, though one is in sight.
+
+Local commissioning funds the service where it is delivered. In Cambridgeshire the £47.8m adult drug and alcohol contract has recently been re-procured and awarded, so there is no procurement route in. The realistic route is redirection of spend happening now, through local public health commissioning and that is a live conversation rather than a hypothetical one.
+
+Investment would fund the company itself, in exchange for equity. That route is open and a colleague leads it.
+
+The fifth I am testing rather than relying on. The East of England Clinical Digital Health Solutions Framework runs to September 2028 and is free for any NHS body to use. New suppliers cannot join mid-term, but those already on it can add products to the catalogue, so licensing through an existing supplier could reach NHS bodies across the region without a new procurement. I have no evidence on how often that happens, so I treat it as worth testing, not as a route known to work.
+
+Grants like this one fund the founder and the groundwork, which is the stage I am at.
+
+The eventual model is a licensed Continuity infrastructure paid for by the organisations that benefit from people staying connected — commissioners and providers, not the individuals using it. Nobody in this position should ever be asked to pay for Continuity. I do not yet have proof of demand at a price and I am not going to claim I do. Establishing that is part of what the demonstrator is for.</textarea>
+    <div class="editbar">
+      <span class="livecount" id="t7_1_c">1,998 / 2,000</span>
+      <button onclick="copyBox('t7_1','7.1')">Copy edited text</button>
+    </div>
+  </div>
+</section>
+
+<h2 class="sect">Section 8 · Funding request</h2>
+<section class="card">
+  <div class="boxhead"><span class="num">Boxes 8.1 – 8.2</span><span class="count">ten lines · exactly £8,000</span></div>
+  <div class="a"><table>
+  <tr><td>UnLtd workshops &amp; events <span class="flag">(mandatory)</span></td><td class="r">£500</td></tr>
+  <tr><td>Clinical safety documentation (DCB0129), registered Clinical Safety Officer</td><td class="r">£2,000</td></tr>
+  <tr><td>Data protection impact assessment and information-governance review</td><td class="r">£1,500</td></tr>
+  <tr><td>Legal — partner data-sharing and information-sharing agreements</td><td class="r">£1,200</td></tr>
+  <tr><td>Local evidence base — freelance research and data analysis</td><td class="r">£1,000</td></tr>
+  <tr><td>Insurance — professional indemnity and public liability</td><td class="r">£600</td></tr>
+  <tr><td>Safeguarding protocol, training and DBS checks</td><td class="r">£450</td></tr>
+  <tr><td>Consent model and participant-facing materials</td><td class="r">£400</td></tr>
+  <tr><td><span class="flag">ICO data-protection fee, Companies House filings, and contingency</span> — reworded tonight, TL-0404</td><td class="r">£150</td></tr>
+  <tr><td>Travel to partner and commissioner meetings</td><td class="r">£200</td></tr>
+  <tr class="total"><td>TOTAL</td><td class="r">£8,000</td></tr>
+  </table>
+  <p style="margin-top:1rem">No line pays for your time (TL-0340). The £500 to UnLtd events is mandatory, so the usable figure is £7,500. Amounts are market estimates, not held quotes — the Clinical Safety Officer line is the one to verify.</p></div>
+</section>
+
+<h2 class="sect">Section 9 · References</h2>
+<section class="card">
+  <div class="a">
+  <p><b>Danae Evans</b> — friend (professional reference only). Her <b>personal</b> address, never the council one.</p>
+  <p><b>Mark Wells</b> — friend (professional reference only). <span class="flag">His email is still blank.</span></p>
+  <p>Not Gareth, not John — both shareholders, so not independent (TL-0367). Text both before you submit — UnLtd contact referees directly.</p>
+  </div>
+</section>
+
+<h2 class="sect">Before you press submit</h2>
+<section class="card"><div class="a"><ul class="check">
+<li>Your ⬜ fields: name, address, phone, <b>NI number into the portal only — never into chat</b></li>
+<li>Paste fresh from this page — boxes changed tonight: <b>6.1</b> · <b>6.2</b> · <b>6.3</b> · <b>6.7</b> · <b>budget line 9</b>. Only 2.3, 3.1, 6.6 and 7.1 are unchanged.</li>
+<li>Set 5.4 third pick to <b>People with mental health problems</b> in the portal (TL-0400)</li>
+<li><b>Deploy the fixed site</b> — the plan table at unltd.otos.network was corrected in the source (TL-0403) and must be live before you submit. Line 292 ruling still open.</li>
+<li>Mark Wells’s email address · text Danae and Mark</li>
+</ul></div></section>
+</main><script>
+function fmt(n){return n.toLocaleString('en-GB');}
+document.addEventListener('input', function(e){
+  if(e.target.tagName!=='TEXTAREA') return;
+  var c=document.getElementById(e.target.id+'_c'); var n=e.target.value.length;
+  c.textContent=fmt(n)+' / 2,000';
+  c.className='livecount'+(n>2000?' over':'');
+});
+function copyBox(tid,label){
+  var ta=document.getElementById(tid); var text=ta.value;
+  function done(){var btn=ta.parentElement.querySelector('button');var old=btn.textContent;btn.textContent='Copied ('+fmt(text.length)+' chars)';setTimeout(function(){btn.textContent=old;},1600);}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done,function(){fallback();});}else{fallback();}
+  function fallback(){ta.focus();ta.select();try{document.execCommand('copy');done();}catch(e){alert('Copy failed — select the text and copy manually.');}ta.setSelectionRange(0,0);}
+}
+</script>
