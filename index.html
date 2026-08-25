@@ -21,6 +21,27 @@
     @keyframes cuebob{0%,100%{transform:translateY(-2px)}50%{transform:translateY(4px)}}
     @media (prefers-reduced-motion: reduce){.cue svg{animation:none}}
     .rail .statline{margin-top:2.2rem}
+    /* footer rebuild */
+    .foot{padding-block:3rem 2rem}
+    .foot .frow{display:flex;flex-wrap:wrap;align-items:center;gap:1.25rem 2.25rem;
+      padding-bottom:1.9rem;border-bottom:1px solid rgba(246,240,228,.14)}
+    .foot .fwho{line-height:1.45}
+    .foot .fname{color:#f6f0e4;font-weight:600;font-size:.95rem}
+    .foot .frole{color:rgba(246,240,228,.55);font-size:.8125rem}
+    .foot .freach{margin-left:auto;display:flex;flex-wrap:wrap;gap:.5rem 2rem;align-items:center;font-size:.875rem}
+    @media(max-width:700px){.foot .freach{margin-left:0}}
+    .fsmall{margin-top:1.5rem}
+    .fsmall summary{cursor:pointer;font-size:.75rem;letter-spacing:.02em;color:rgba(246,240,228,.45);
+      list-style:none;display:inline-flex;align-items:center;gap:.45rem}
+    .fsmall summary::-webkit-details-marker{display:none}
+    .fsmall summary::before{content:"+";display:inline-block;color:rgba(246,240,228,.45)}
+    .fsmall[open] summary::before{content:"\2013"}
+    .fsmall summary:hover{color:rgba(246,240,228,.7)}
+    .fsmall p{margin-top:.8rem;font-size:.72rem;line-height:1.7;color:rgba(246,240,228,.38);max-width:none}
+    .fsmall p strong{color:rgba(246,240,228,.5)}
+    .fbase{margin-top:1.7rem;display:flex;flex-wrap:wrap;justify-content:space-between;
+      gap:.5rem 2rem;font-size:.75rem;color:rgba(246,240,228,.42)}
+    .fbase p{margin:0}
   </style>
 </head>
 <body>
@@ -497,25 +518,36 @@
   <div class="wrap">
     <div class="frow">
       <img src="assets/lockup-white.png" alt="OTOS Continuity" width="316" height="130">
-      <p class="fcontact"><b>Dean Butler</b> &middot; Founder, OTOS Digital Ltd &mdash; Out The Other Side&trade; &middot; Co. No. 17084455<br>
-        <a href="mailto:dean.butler@otos.digital">dean.butler@otos.digital</a> &middot;
-        <a href="tel:+447585899235">07585 899 235</a></p>
+      <div class="fwho">
+        <p class="fname">Dean Butler</p>
+        <p class="frole">Founder, OTOS Digital Ltd &mdash; Out The Other Side&trade;</p>
+      </div>
+      <div class="freach">
+        <a href="mailto:dean.butler@otos.digital">dean.butler@otos.digital</a>
+        <a href="tel:+447585899235">07585 899 235</a>
+      </div>
     </div>
-    <p class="fine"><strong>Boundary.</strong> OTOS does not diagnose, prescribe, treat, replace services or make
-      clinical decisions. OTOS surfaces signals; partner teams make the decisions. No endorsement is assumed or
-      implied &mdash; no organisation named on this page is a confirmed partner; services are named only as part of
-      the founder&rsquo;s own journey and any future role would be theirs to choose, only where agreed. No therapy
-      content, notes or disclosures are part of OTOS; no NHS record access or write-back; no access to the NHS
-      Single Patient Record is required. Any future work would be consent-led, partner-shaped and subject to
-      governance and qualified clinical leadership.</p>
-    <p class="fine"><strong>Neurologically Informed Addiction (NIA)</strong> is founder-proposed terminology. It has
-      not been submitted to any professional body and is not used elsewhere. It is a way of looking at ADHD-driven
-      addiction through a different lens rather than grouping it with dual diagnosis or co-morbidity &mdash; because
-      without a named problem there is no named treatment. There is live precedent for naming done properly: in
-      May 2026, PCOS became PMOS &mdash; Polyendocrine Metabolic Ovarian Syndrome &mdash; through a multistep
-      global consensus process published in <em>The Lancet</em>, because the old name obscured what the condition
-      actually is. ADHD-driven addiction deserves the same: a real, documented naming, arrived at properly.</p>
-    <p class="fine">Private briefing prepared for UnLtd, August 2026. Not for publication or onward circulation.</p>
+    <details class="fsmall">
+      <summary>Small print &mdash; boundary, disclaimers and NIA terminology</summary>
+      <p><strong>Boundary.</strong> OTOS does not diagnose, prescribe, treat, replace services or make
+        clinical decisions. OTOS surfaces signals; partner teams make the decisions. No endorsement is assumed or
+        implied &mdash; no organisation named on this page is a confirmed partner; services are named only as part of
+        the founder&rsquo;s own journey and any future role would be theirs to choose, only where agreed. No therapy
+        content, notes or disclosures are part of OTOS; no NHS record access or write-back; no access to the NHS
+        Single Patient Record is required. Any future work would be consent-led, partner-shaped and subject to
+        governance and qualified clinical leadership.</p>
+      <p><strong>Neurologically Informed Addiction (NIA)</strong> is founder-proposed terminology. It has
+        not been submitted to any professional body and is not used elsewhere. It is a way of looking at ADHD-driven
+        addiction through a different lens rather than grouping it with dual diagnosis or co-morbidity &mdash; because
+        without a named problem there is no named treatment. There is live precedent for naming done properly: in
+        May 2026, PCOS became PMOS &mdash; Polyendocrine Metabolic Ovarian Syndrome &mdash; through a multistep
+        global consensus process published in <em>The Lancet</em>, because the old name obscured what the condition
+        actually is. ADHD-driven addiction deserves the same: a real, documented naming, arrived at properly.</p>
+    </details>
+    <div class="fbase">
+      <p>&copy; 2026 OTOS Digital Ltd &middot; Co. No. 17084455</p>
+      <p>Private briefing prepared for UnLtd, August 2026 &middot; Not for publication or onward circulation</p>
+    </div>
   </div>
 </footer>
 
