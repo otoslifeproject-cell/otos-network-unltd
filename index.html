@@ -13,6 +13,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Franklin:wght@500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/otos.css">
+  <style>
+    .cue{display:inline-flex;align-items:center;justify-content:center;width:42px;height:60px;margin-top:2.4rem;
+      border:1px solid rgba(245,239,226,.35);border-radius:999px;background:rgba(245,239,226,.08)}
+    .cue svg{width:16px;height:16px;stroke:#f5efe2;opacity:.75;fill:none;stroke-width:1.8;stroke-linecap:round;
+      stroke-linejoin:round;animation:cuebob 2.4s ease-in-out infinite}
+    @keyframes cuebob{0%,100%{transform:translateY(-2px)}50%{transform:translateY(4px)}}
+    @media (prefers-reduced-motion: reduce){.cue svg{animation:none}}
+    .rail .statline{margin-top:2.2rem}
+  </style>
 </head>
 <body>
 <div class="progress" aria-hidden="true"></div>
@@ -41,6 +50,7 @@
       ADHD. The drinking or drug use is what arrives in view.</strong></p>
     <p class="fine">This page is held privately while partner conversations are live. It has been shared with UnLtd
       directly and is not indexed or publicly linked.</p>
+    <a class="cue" href="#s1" aria-label="Scroll to the first section"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v14m0 0l-6-6m6 6l6-6"/></svg></a>
   </div>
 </header>
 
@@ -61,6 +71,7 @@
           <li><a href="#s5"><i>05</i><span>The award</span></a></li>
           <li><a href="#s6"><i>06</i><span>Sustainability</span></a></li>
         </ol></nav>
+        <div class="statline"><span class="fig">803,658</span><p class="desc">open referrals that may be for an ADHD assessment in England, March 2026</p><p class="src">NHS England Digital, ADHD Management Information, published 28 May 2026</p></div>
       </div>
       <div class="flow rv">
         <p class="lead">I am what this problem costs. Six detoxes, two ICU admissions, a suicide attempt,
@@ -69,8 +80,9 @@
           diagnosis and my waiting medication review were documented throughout &mdash; and not ignored, because
           ignored would mean somebody weighed them. They were never considered. No pathway requires anyone to look
           for the ADHD sitting under an addiction; connecting the two is no one&rsquo;s role in today&rsquo;s
-          system. That is what has to change &mdash; and it is what the demonstrator exists to evidence. Yet NHS
-          England&rsquo;s independent ADHD Taskforce has since described my life in a single sentence:</p>
+          system. That is what has to change &mdash; and it is what the demonstrator exists to evidence. Even NHS
+          England&rsquo;s own independent ADHD Taskforce agrees &mdash; it has since described my life in a single
+          paragraph:</p>
 
         <blockquote class="pull">&ldquo;ADHD, when unsupported, is a potent route into educational failure,
           long-term unemployment, crime, substance misuse, suicide, mental and physical illness. Economic costs to
@@ -83,11 +95,13 @@
           mental-health crisis, in collapse and sometimes in prison. By the time the system catches up, the
           original need has become much more expensive and much harder to unwind.</p>
 
-                <p>Self-medication works &mdash; until it doesn&rsquo;t. Alcohol can briefly do what an untreated ADHD brain
-          has been trying to do all along: cut through boredom, settle internal noise, create focus and bring a person
-          into the room. That is not a moral failure. It is a neurological system finding something that, for a
-          time, helps it function. And then it crosses the line into dependence and compounds everything it once
-          relieved.</p>
+        <div class="statline"><span class="fig">&pound;17bn</span><p class="desc">avoidable annual economic cost of unsupported ADHD in the UK</p><p class="src">Independent ADHD Taskforce, NHS England, 2025</p></div>
+
+                <p>Self-medication works &mdash; until it doesn&rsquo;t. For an untreated ADHD brain, alcohol can briefly
+          deliver what the brain cannot make for itself: regulation. Focus, relief, calm, social access, a
+          temporary correction of baseline. That is not a moral failure. It is a neurological system finding
+          something that, for a time, helps it function. And then it crosses the line into dependence and
+          compounds everything it once relieved.</p>
 
         <p>Then the treatment itself misses. Recovery is a learning process &mdash; therapy, relapse prevention,
           recovery education and routine &mdash; and it asks for exactly the capacities unmanaged ADHD impairs:
@@ -99,13 +113,12 @@
           believe alcohol would have become the painful, life-changing, system-level problem it later
           became.</blockquote>
 
-        <div class="statline"><span class="fig">803,658</span><p class="desc">open referrals that may be for an ADHD assessment in England, March 2026</p><p class="src">NHS England Digital, ADHD Management Information, published 28 May 2026</p></div>
-        <div class="statline"><span class="fig">&pound;17bn</span><p class="desc">avoidable annual economic cost of unsupported ADHD in the UK</p><p class="src">Independent ADHD Taskforce, NHS England, 2025</p></div>
-        <div class="statline"><span class="fig">4,690</span><p class="desc">adults in structured addiction treatment across Cambridgeshire and Peterborough</p><p class="src">NDTMS 2024/25 · Cambridgeshire 2,980 + Peterborough 1,710</p></div>
-        <div class="statline"><span class="fig">+12.3%</span><p class="desc">local growth in that treatment population, against a national +6%</p><p class="src">NDTMS 2024/25</p></div>
 
         <p>NHS England&rsquo;s own ADHD data carries a warning about itself: it is <em>&ldquo;likely to significantly
           underrepresent the number of people seeking, waiting for and with a diagnosis of ADHD.&rdquo;</em></p>
+
+        <div class="statline"><span class="fig">4,690</span><p class="desc">adults in structured addiction treatment across Cambridgeshire and Peterborough</p><p class="src">NDTMS 2024/25 · Cambridgeshire 2,980 + Peterborough 1,710</p></div>
+        <div class="statline"><span class="fig">+12.3%</span><p class="desc">local growth in that treatment population, against a national +6%</p><p class="src">NDTMS 2024/25</p></div>
 
         <p>The Royal College of Psychiatrists has been explicit about what should happen:
           <em>&ldquo;Significant and comorbid substance misuse should be managed jointly between general adult and
@@ -119,7 +132,7 @@
         <blockquote class="pull">Treat the addiction alone and some of us keep coming back. Treat the ADHD underneath
           it and the recovery work can finally hold.</blockquote>
 
-        <p><strong>The guidance exists. The connective tissue to deliver it does not.</strong></p>
+        <p><strong>The guidance exists. The connective infrastructure to deliver it does not.</strong></p>
       </div>
     </div>
   </div>
@@ -158,8 +171,9 @@
           &mdash; it is a cognitive task handed to the patient: remember something said once, hold it across weeks
           and start an action with no immediate reward, while unwell. For an unmedicated ADHD brain, that is the
           hardest possible ask. Reward is steeply discounted over time, so a date three weeks away never feels
-          close. Working memory is leaky; the instruction was verbal. Initiation &mdash; not motivation &mdash;
-          is the barrier. Miss the first appointment and shame makes the second harder. Meanwhile the untreated
+          close. Working memory is leaky; the instruction was verbal. Initiation, planning, working memory, emotional regulation, delayed reward &mdash; a handoff
+          quietly demands them all and unmanaged ADHD impairs every one. What recovery requires, ADHD has already
+          taken away. Miss the first appointment and shame makes the second harder. Meanwhile the untreated
           condition keeps generating the state that alcohol reliably fixes.</p>
 
         <p><strong>Drift is not a choice. It is a predictable consequence of a known neurology &mdash; which means
@@ -167,21 +181,22 @@
 
         <p>And when a service discharges, its role is properly finished and the case closes &mdash; by design.
           What nobody is holding is that the ADHD came before every one of those presentations and treatments,
-          and it is still there, still waiting. Dealt with upstream &mdash; surgically, as the special cases they
-          are &mdash; it is the condition that sits underneath everything the system keeps paying to treat.</p>
+          and it is still there, still waiting. It is the condition underneath everything the system keeps paying
+          to treat &mdash; and today it is only ever met downstream, after the crisis, if at all. Dealt with
+          upstream &mdash; surgically, as the special cases they are &mdash; the whole pattern changes: I
+          personally believe recovery rates will increase and the massive cost chain that follows this cohort
+          should collapse as a direct result.</p>
 
-        <p><strong>This cohort is not hidden. It is in the room, being counted, being paid for &mdash; and not
-          being seen.</strong></p>
+        <p><strong>This cohort is not hidden. It is in the room, being counted, being paid for &mdash; but invisible.</strong></p>
 
-        <p>And yet the sector has begun to look. <strong>Declaration first: I was a CGL service user; CGL funded my
-          residential rehab.</strong> With that stated: published CGL material suggests prior development
+        <p>And yet the sector has begun to look. Published CGL material suggests prior development
           of an ADHD assessment pathway within a substance-use / criminal-justice context &mdash; in CGL&rsquo;s
           own words, &ldquo;the development and implementation of a specialist ADHD diagnostic assessment pathway
           in Nottinghamshire for adults using substances within the criminal justice system&rdquo;. The sector has
           begun operationalising the question. <strong>CGL Nottingham is not OTOS proof. It is pathway proof.</strong>
           ADHD in addiction is not a private hunch. OTOS is not proposing diagnostic duplication; it is proposing
-          continuity visibility between services so agreed next steps are less likely to disappear between
-          silos.</p>
+          continuity visibility between services so agreed next steps stop disappearing between silos &mdash;
+          where they cost the system more money and, too often, lives.</p>
       </div>
     </div>
   </div>
@@ -214,13 +229,20 @@
             engineered behaviour-reinforcement tasks that replicate the intensity and repetition of residential
             rehab work. <em>&ldquo;Do a three-minute meditation.&rdquo;</em> <em>&ldquo;Write down the four Cs of
             recovery and put the note on your fridge door.&rdquo;</em> The content belongs to the services &mdash;
-            OTOS is the infrastructure that carries it. Simple, small, constant &mdash; so the person is held
+            OTOS is the infrastructure that carries it. New neural pathways are only formed through repetition
+            &mdash; twelve weeks minimum, which is exactly what the demonstrator gives them. Simple, small, constant &mdash; so the person is held
             through the day, when a keyworker&rsquo;s reality is one call a fortnight.</li>
           <li><strong>Outwards, to the services</strong> &mdash; every check-in is multi-purpose: a reply is a
             signal &mdash; he&rsquo;s alive, engaged with the recovery. Even the delivery receipt is a signal
             &mdash; the phone is on. <strong>Signals create the alerts. OTOS surfaces the alerts &mdash; before
-            crisis becomes consequence.</strong> Drift made visible, referrals recorded, delivery confirmed,
-            attendance logged and handoffs receipted. A referral is a signpost. A handoff receipt is a connection.</li>
+            crisis becomes consequence.</strong> Referrals recorded, delivery confirmed,
+            attendance logged, handoffs receipted &mdash; and ADHD status updated, so every partner sees progress
+            without asking. It works in every direction at once: a wellbeing hub sends its course invitations down
+            the same thread, waiting-list support and short recovery content travel alongside them and the
+            addiction service can see the person engaged with the course and still waiting for the review &mdash;
+            without a single phone call. And if he turns up at A&amp;E, that surfaces as an alert on the Layer:
+            the person is in crisis and everyone who should know, knows. A referral is a signpost. A handoff
+            receipt is a connection.</li>
         </ol>
 
         <blockquote class="pull">Services deliver to it and receive from it. The person receives from it and
@@ -235,6 +257,12 @@
           becomes a digital waiting room &mdash; not passive waiting, active holding &mdash; carrying the person
           through it.</strong> Generic reminders do not understand shame, avoidance, relapse, ADHD paralysis or the
           moment someone is close to disappearing.</p>
+
+        <p>The most important referral may be the very first one: a nurse at a hospital bedside, after a detox,
+          registering the person on Continuity instead of saying &ldquo;try the addiction service or maybe mental
+          health.&rdquo; From that one act the scene is set &mdash; the ADHD team knows immediately and can
+          fast-track, the addiction service chases the person instead of waiting for them and the thread stops
+          snapping at discharge. One referral at the point of crisis and the whole problem is being tackled.</p>
 
         <p><strong>Every existing connection between a service and the person continues underneath,
           unaffected.</strong></p>
@@ -285,13 +313,19 @@
         <p>I was diagnosed with ADHD in 2020. I was referred for an NHS medication review in <strong>March 2021
           &mdash; and I am still on that waiting list. Five years and counting.</strong></p>
 
-        <p>For twenty-five years, alcohol did the work my untreated ADHD had left undone. Then the drinking stopped working but didn&rsquo;t stop being
+        <p>For twenty-five years, drinking worked really well for me. I didn&rsquo;t realise it, but it was the medication my undiagnosed ADHD required every day to simply function. Then the drinking stopped working but didn&rsquo;t stop being
           necessary &mdash; and started costing: six detoxes, two ICU admissions, a suicide attempt, A&amp;E, courts, probation and residential rehab at a
           dual-diagnosis hospital &mdash; where my ADHD medication was removed on arrival because it was a
           stimulant. I came out of that rehab with over a thousand hours of therapy in my body &mdash; thirteen
           hours a day, twelve-stepped, addiction-informed at a level most people never reach. And it held &mdash; for two years. I forgot about the ADHD. The ADHD did not forget about me. Then, with no
           medication underneath and no self-medication left either, I was living untreated ADHD raw for the first
-          time in my life and it slowly eroded everything the recovery work had built. Every service I met did its own job properly. The system saw the alcohol, the crisis,
+          time in my life and it slowly eroded everything the recovery work had built. Two years on recovery work alone &mdash; I
+          never felt right and at the time I accepted that discomfort as sobriety. Then a nine-month
+          controlled-drinking experiment, run with a design: if I got into trouble, pull the emergency cord
+          &mdash; A&amp;E, detox &mdash; and I would know for sure. It re-ran my whole story in miniature: the
+          drinking briefly restored the function, I built on it, then it crossed the line &mdash; in months
+          instead of decades. It ended in a one-week relapse that properly gripped me and in asking my parents
+          for help: it has to be the ADHD. Every service I met did its own job properly. The system saw the alcohol, the crisis,
           the admissions and the collapse. It did not connect the documented ADHD underneath quickly enough to
           change the trajectory. The thing that nearly killed me wasn&rsquo;t being out of a service. It was being between services and nobody knowing.</p>
 
@@ -310,10 +344,9 @@
           who cannot do what I did. Many of them do not yet know they have ADHD at all. They are simply living the
           pattern I lived.</p>
 
-        <p>That experience is not the pitch. <strong>It is the design specification.</strong> I am now part of the
+        <p>That experience is not the pitch. <strong>It is the design specification.</strong> I was invited to join the
           APPIE network &mdash; the NIHR Policy Research Unit in Addictions&rsquo; national lived-experience
-          research network &mdash; and working towards a research project where
-          lived-experience contributors are named as co-applicants, not thanked in a footnote.</p>
+          research network &mdash; their approach, not mine.</p>
       </div>
     </div>
   </div>
@@ -344,13 +377,15 @@
           </tbody>
         </table></div>
 
-        <p><strong>This is a trial to find out whether what happened to me happens to others already visible to
-          services here in Cambridgeshire and Peterborough.</strong></p>
+        <p><strong>This is a trial to find out whether what happened to me is happening to others already
+          visible to services here in Cambridgeshire and Peterborough &mdash; and without reconsideration and
+          intervention it will continue to do so, costing more money and more lives.</strong></p>
 
-        <p><strong>What we will measure:</strong> how many handoffs are receipted &middot; what proportion of
-          participants reach the next step &middot; how quickly someone re-engages after drift &middot; what
-          participants say about being held &middot; and &mdash; asked openly &mdash; whether we <em>add</em> burden
-          for the practitioners involved. <strong>Small. Surgical. Enough to prove or stop.</strong></p>
+        <p><strong>What we will measure &mdash; reported at commissioner grade:</strong> handoffs receipted and
+          next steps reached &middot; re-engagement time after a missed contact &middot; micro check-in delivery,
+          replies and engagement across the education and wellbeing content &middot; ADHD pathway progress,
+          referral to review to prescription &middot; what participants say about being held &mdash; and, asked
+          openly: do we add burden for the practitioners involved? Small. Surgical. Enough to prove or stop.</p>
 
         <div class="statline"><span class="fig">&pound;8,000</span><p class="desc">Starting Up Award</p><p class="src">&pound;500 of it is allocated to UnLtd events and workshops; none of it pays for my time</p></div>
 
@@ -379,10 +414,16 @@
         <div class="rule" aria-hidden="true"></div>
       </div>
       <div class="flow rv">
-        <h3>1 &middot; Local-authority and NHS commissioning &mdash; live now</h3>
+        <h3>1 &middot; Local-authority and NHS commissioning &mdash; live and moving</h3>
         <p><strong>A cost-redirection opportunity hiding in current drug and alcohol spend.</strong> A public health
-          commissioner in Cambridgeshire asked to see the full proposal following a meeting in April 2026. The
-          system is already paying &mdash; late, reactively and across the most expensive settings. The
+          commissioner in Cambridgeshire asked to see the full proposal following a meeting in April 2026 &mdash;
+          that proposal is now being delivered, together with the offer of a first, small piece of commissioned
+          analysis. And the ground has shifted in OTOS&rsquo;s favour: the county runs an active High Intensity
+          Use service, part of a national NHS programme of around 100, already collating data on exactly this
+          cohort. What nobody is looking for in that data is ADHD &mdash; in the national HIU evaluation it
+          appears only once, in a service user&rsquo;s own words, in an appendix case study, never in a finding or
+          a recommendation. A small report that goes looking is the natural first commission. The system is
+          already paying &mdash; late, reactively and across the most expensive settings. The
           proposition is cost redirection, not new spending: drug and alcohol budgets already carry
           a heavy reactive load &mdash; crisis presentations, revolving-door admissions and repeat treatment episodes
           &mdash; and continuity is a cheaper place to spend. The published evidence supports the direction: roughly
@@ -392,16 +433,27 @@
           plausibly cost more, which is an argument to test rather than a number to assert.</p>
 
         <h3>2 &middot; Research funding</h3>
-        <p>The lived-experience research route through APPIE and the search for a Principal Investigator open
-          NIHR and comparable funding, where lived-experience contributors are named co-applicants. A demonstrator produces exactly the local evidence a research bid needs &mdash; and a
-          research frame gives the demonstrator a credible evaluation.</p>
+        <p>The research route runs through APPIE &mdash; the NIHR Policy Research Unit in Addictions&rsquo;
+          national lived-experience research network, which invited me to join &mdash; and a growing bench of
+          live academic contacts across eight universities, including the PI of an NIHR-funded waiting-list
+          study, with follow-ups in motion. Early days, deliberately: the demonstrator produces exactly the
+          local evidence a research bid needs and a research frame gives the demonstrator a credible evaluation.
+          When the time comes to approach a Principal Investigator, OTOS arrives introduced, not cold.</p>
 
         <h3>3 &middot; Licensing, once evidenced</h3>
-        <p>Voluntary-sector organisations and NHS services paying for a continuity layer that needs no record
-          access, no systems integration and no legal framework that doesn&rsquo;t yet exist. Low integration is
-          what makes it affordable &mdash; and what makes it possible at all.</p>
+        <p>Once the demonstrator has produced its evidence, the Layer itself becomes the product:
+          voluntary-sector organisations and NHS services licensing a continuity layer that needs no access to
+          clinical records, no systems integration and no new legal framework. That is what keeps it affordable
+          for services with thin budgets &mdash; and why it can exist at all: everything that usually makes
+          health technology slow and expensive has been designed out.</p>
 
-        <p><strong>Nothing gets built until someone has paid to establish the question is real.</strong></p>
+        <h3>A quiet last word</h3>
+        <p>This proposal is deliberately narrow &mdash; one cohort, one spearhead, one test. But a Continuity Layer
+          has applications for other conditions and well beyond my own specialist area. Nothing in its design stops
+          a person &mdash; and the system around them &mdash; keeping a Continuity thread for life.</p>
+        <p>The potential for OTOS Continuity infrastructure is huge, much bigger than this first use, but I am not
+          running before I can walk.</p>
+        <p><strong>I&rsquo;m Out The Other Side (OTOS). I hope you can help me get others out too.</strong></p>
 
         <h3>Evidence and sources</h3>
         <ul class="blist">
@@ -420,13 +472,7 @@
           as fact. The demonstrator exists to replace estimates with local evidence, including evidence that the
           idea does not hold. Enough evidence to test. Not enough to overclaim.</p>
 
-        <h3>A quiet last word</h3>
-        <p>This proposal is deliberately narrow &mdash; one cohort, one spearhead, one test. But a Continuity Layer
-          has applications for other conditions and well beyond my own specialist area. Nothing in its design stops
-          a person &mdash; and the system around them &mdash; keeping a Continuity thread for life.</p>
-        <p>The potential for OTOS Continuity infrastructure is huge, much bigger than this first use, but I am not
-          running before I can walk.</p>
-        <p><strong>I&rsquo;m Out The Other Side (OTOS). I hope you can help me get others out too.</strong></p>
+
       </div>
     </div>
   </div>
